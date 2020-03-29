@@ -7,18 +7,15 @@
     tools:context=".Main2Activity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/myTarget"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="我的項目"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="77dp" />
+        android:text="My Target"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CheckedTextView"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="108dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
